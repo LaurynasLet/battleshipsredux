@@ -1,0 +1,65 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background: #FAFAFA;
+}
+.main-container {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+}
+.board-container {
+	width: 100%;
+	padding: 16px;
+	margin: 0 auto;
+	float: left;
+}
+ .board-element {
+	 width: 48px;
+	 height: 48px;
+	 float: left;
+	 border: solid 1px #333;
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-around;
+}
+
+#ai-board-container {
+	float: right;
+}
+.input-container {
+	width: 100%;
+	max-width: 450px;
+	padding: 16px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.board-size {
+	width: 100%;
+}
+.log {
+	width: 100%;
+	display: block;
+}
+.button-generate {
+	width: 50%;
+	margin-top: 15px;
+}
+.missed {
+	background: yellow;
+}
+.one-ship {
+	background: red;
+}
+
+.two-ship {
+	background: green;
+}
+
+.three-ship {
+	background: purple;
+}
+.four-ship {
+	background: pink;
+}
